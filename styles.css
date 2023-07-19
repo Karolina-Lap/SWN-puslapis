@@ -1,0 +1,43 @@
+
+header{
+    background-color: rgb(253, 254, 254);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+ 
+}
+
+.logo{
+width: 60px;
+height: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    }
+
+    ul li{
+        list-style-type: none;
+    }
+
+    .globe-menu{
+        display: flex;
+        gap:20px;
+    }
+.globe{
+    width: 30px;
+    height: 30px;
+}
+
+.grip-lines{
+    width: 30px;
+    height: 30px;
+}
