@@ -7,7 +7,10 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 10px;
+    margin-top: -60px;
+    padding: 2px;
+    position: fixed;
+    width: 92%;
  
 }
 
@@ -48,7 +51,8 @@ ul li a{
 
 main{
     background-color: rgba(238, 235, 235, 0.686);
-    height: 2000px;
+    height: 1850px;
+    margin-top: 20px;
 }
 .title{
     font-family: 'Noto Sans', sans-serif;
@@ -247,8 +251,100 @@ font-family: 'Titillium Web', sans-serif;
 font-size: 40px;
 }
 
-.button{
+.button2{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
+
+.fact-sheet{ 
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+margin-bottom: -15px;
+}
+
+@media screen and (max-width: 768px) {
+    body{margin: none;
+    padding: none;}
+
+     header ul {
+      display: none;
+    }
+  
+    header {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .logo {
+      margin-left: -95px;
+      margin-top: -10px;
+    }
+    .globe-menu{
+        margin-right: -20px;
+    }
+    .main-content{
+    background-color: white;
+    
+    }
+
+    .mini-title {
+      display: none;
+    }
+  
+    .title {
+      font-size: 90px;
+      display: table-cell;
+      position: relative;
+     
+    }
+    .arrow-sign{
+        margin-right: -67px;
+    }
+  
+    .second-title{
+        display: flex;
+       justify-content: center;
+       margin-left: -80px;
+    }
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-top: 400px;
+    }
+  
+    .cards {
+      display: flex;
+      flex-direction: column;
+      margin-top:0px;
+    }
+    .first-picture{  padding-left: 95px; }
+    .third-picture{padding-left: 95px;}
+    .fourth-picture{padding-left: 95px;}
+    
+    /* .one{
+        display: flex;
+    } */
+
+    .second-content{
+        display: none;
+    }
+    
+    .second-button {
+      justify-content: space-between;
+      margin-left: 1px;
+      width: 327px;
+      display: flex;
+      margin-top: 400px;
+    }
+    .first-button{
+        justify-content: space-between;
+        margin-left: 1px;
+        width: 327px;
+        display: flex;
+        margin-bottom: -200px;
+        
+    }
+  }
+  
+    
+  
