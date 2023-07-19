@@ -41,3 +41,33 @@ ul li a{
     width: 30px;
     height: 30px;
 }
+
+main{
+    background-color: rgba(238, 235, 235, 0.686);
+    height: 900px;
+}
+.title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 100px;
+    width: 350px;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+.mini-title{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-style: italic;
+display: table-caption;
+width: 150px;
+margin-top: 90px;
+margin-left: 15px;
+}
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -160px;
+    
+}
+.arrow-icon{
+    height: 150px;
+}
