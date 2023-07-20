@@ -263,6 +263,13 @@ font-family: 'Titillium Web', sans-serif;
 margin-bottom: -15px;
 }
 
+.cards-arrows{
+    height: 20px;
+    width: 20px;
+    margin-left: 95%;
+    margin-top: -8px;
+}
+
 @media screen and (max-width: 768px) {
     body{margin: none;
     padding: none;}
@@ -317,14 +324,61 @@ margin-bottom: -15px;
       flex-direction: column;
       margin-top:0px;
     }
-    .first-picture{  padding-left: 95px; }
-    .third-picture{padding-left: 95px;}
-    .fourth-picture{padding-left: 95px;}
+    .first-picture{  
+        object-fit: contain;
+        width: 290px;
+       height: 170px;
+}
+     
+    .third-picture{
+        object-fit: contain;
+        width: 290px;
+        height: 170px;
+    }
+    .fourth-picture{
+        object-fit: contain;
+        width: 290px;
+        height: 170px;
+    }
     
-    /* .one{
+    .first-board{
+        margin-top: 67px;
         display: flex;
-    } */
-
+        justify-content: start;
+        margin-left: 14px;
+        
+    }
+    .first-text{
+        margin-top: -109px;
+        margin-left: 15px;
+        width: 226px;
+    }
+    .third-board{ 
+        margin-top: 67px;
+        display: flex;
+        justify-content: start;
+        margin-left: 14px;
+    }
+    .third-text{
+        margin-top: -109px;
+        margin-left: 15px;
+        width: 226px;
+    } 
+    .fourth-board{
+        margin-top: 67px;
+        display: flex;
+        justify-content: start;
+        margin-left: 14px;
+    }
+    .fourth-text{
+        margin-top: -90px;
+        margin-left: 15px;
+        width: 226px;
+    }
+    
+    .first-content{
+        margin-top: -342px;
+    }
     .second-content{
         display: none;
     }
@@ -335,6 +389,7 @@ margin-bottom: -15px;
       width: 327px;
       display: flex;
       margin-top: 400px;
+      margin-bottom: 20px;
     }
     .first-button{
         justify-content: space-between;
